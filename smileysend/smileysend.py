@@ -17,16 +17,16 @@ from redbot.core.utils.predicates import MessagePredicate
 real_send = Messageable.send
 real_send_interactive = Context.send_interactive
 OMEGA = (
-    ["\N{SMILING FACE WITH OPEN MOUTH}"] * 7
-    + ["\N{SMILING CAT FACE WITH OPEN MOUTH}"]
+    ["<a:pig_bearhug:745036948938162329>"] * 7
+    + ["<a:pig_bearhug:745036948938162329>"]
 )
 SPECIAL_AUTHOR_CASES = {
-    57287406247743488: ["\N{JEANS}"],
-    154497072148643840: ["\N{SMILING CAT FACE WITH OPEN MOUTH}"],
+    57287406247743488: ["<a:pig_bearhug:745036948938162329>"],
+    154497072148643840: ["<a:pig_bearhug:745036948938162329>"],
 }
 MORE_LIST = [
-    "\N{SMILING FACE WITH OPEN MOUTH}",
-    "\N{SMILING CAT FACE WITH OPEN MOUTH}",
+    "<a:pig_bearhug:745036948938162329>",
+    "<a:pig_bearhug:745036948938162329>",
     "more",
     "moar",
 ]
